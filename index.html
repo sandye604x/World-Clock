@@ -7,15 +7,31 @@
     <title>World Clock Project</title>
 </head>
 <body>
-    <header>
+    <header><div class="container">
         <h1>World Clock</h1>
     </header>
+
+    <main>
+        <select name="selectcity" id="selectcity">
+            <option value="">Choose city.. </option>
+            <option value="switzerland">Switzerland</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="sydney">Sydney <img src="src/au.png"/></option>
+        </select>
+
+
+    <div class="displaycity">Sydney <img src="src/au.png"/>
+    <div class="date">September 26th 2026 </div>
+    <div class="time">1:48:57 PM</div>
+    </div>   
+    </main>
   
- <img src="src/au.png"/>
+ 
 
  <footer>
-    This project was coded by SE and is <a href="">open-sourced on GitHub</a>
+    This project was coded by SE and is <a href="https://se-worldclock.netlify.app/" target="">open-sourced on GitHub</a>
  </footer>
+ </div>
 </body>
 <script src="src/index.js"></script>
 </html>
