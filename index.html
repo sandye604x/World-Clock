@@ -7,23 +7,30 @@
     <title>World Clock Project</title>
 </head>
 <body>
-    <header><div class="container">
+    <div class="container">
         <h1>World Clock</h1>
-    </header>
+    
 
     <main>
         <select name="selectcity" id="selectcity">
-            <option value="">Choose city.. </option>
+            <option value="">Select a city.. </option>
             <option value="switzerland">Switzerland</option>
             <option value="Luxembourg">Luxembourg</option>
             <option value="sydney">Sydney <img src="src/au.png"/></option>
         </select>
 
 
-    <div class="displaycity">Sydney <img src="src/au.png"/>
-    <div class="date">September 26th 2026 </div>
-    <div class="time">1:48:57 PM</div>
-    </div>   
+    <div class="displaycity">
+    <div id="city">Sydney <img src="src/au.png"/></div>
+    <div class="time">1:48:57 <span class="A">AM</span></div></div>
+    <div class="date">September 27th 2026 </div> 
+
+    <div class="displaycity">
+    <div id="city">Switzerland <img src="src/ch.png" width="20"/></div>
+    <div class="time">10:48:57 <span class="A">PM</span></div></div>
+    <div class="date">September 26th 2026 </div> 
+  
+      
     </main>
   
  

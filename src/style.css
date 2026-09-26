@@ -1,8 +1,68 @@
 body {
-    background-color:lightgray;
+    background-color:rgb(231, 231, 231);
+    font-family: sans-serif, Verdana, Geneva,  Tahoma ;
 }
 
 h1 {
-    color:crimson;
-    text-align:left;
+    color:black;
+    text-align:center;
+}
+
+
+.container {
+    background-color:white;
+    display:block;
+    margin: 100px auto;
+    max-width:500px;
+    padding:20px;
+    box-shadow: 5px 5px 5px rgba(0 0 0 0.7);
+    border-radius: 10px;
+}
+
+#city {
+    font-weight:bold;
+    font-size:22px;
+    margin:5px 0 0 20px;
+   
+}
+
+.date {
+    margin:0px 0 0 20px;
+    font-size: 13px;
+    opacity: 60%;
+    line-height: 0px;
+    padding: 0px 0 23px 0;
+    border-bottom:1px dashed lightgrey;
+}
+
+.time {
+    margin:5px 30px 0 0;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.A {
+    font-size:12px;
+
+}
+
+.displaycity {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#selectcity {
+    width:90%;
+    margin: 0 0 30px 20px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+footer {
+    margin: 20px;
+    text-align:center;
+    font-size:12px;
 }
