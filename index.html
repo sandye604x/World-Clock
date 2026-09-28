@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.31.0/moment.min.js" integrity="sha512-iJIt5wigccZYA4F3G8kWt8H0r43JDWpvBweaGct6QsveuU4zmyP6VX2EXMfSfA/Z80b1PfHUNLioFfY1Z55cCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.4/moment-timezone-with-data-1970-2030.min.js" integrity="sha512-qyomUXU2JCwozU0/Vu64+YwKEVHsiRT/h3Bj+MOSWFq+x15S6Lip0F5tUKnuAQ0+Vy9DbO0ZrpHZTkS0wUOxCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="src/style.css"/>
     <title>World Clock Project</title>
 </head>
 <body>
@@ -12,25 +14,23 @@
     
 
     <main>
-        <select name="selectcity" id="selectcity">
+        <select name="selectcity" id="cityselected">
             <option value="">Select a city.. </option>
-            <option value="switzerland">Switzerland</option>
+            <option value="Los_angeles">Los Angeles <img src=""/></option>
             <option value="Luxembourg">Luxembourg</option>
-            <option value="sydney">Sydney <img src="src/au.png"/></option>
+            <option value="sydney">Sydney <img src="src/au.png" width="20"/></option>
         </select>
 
 
-    <div class="displaycity">
-    <div id="city">Sydney <img src="src/au.png"/></div>
-    <div class="time">1:48:57 <span class="A">AM</span></div></div>
-    <div class="date">September 27th 2026 </div> 
+    <div class="displaycity" id="displaycity">
+    <div id="city">Mauritius <img src="src/mu.png" width="17"/></div>
+    <div class="time"> <span class="A"></span></div></div>
+    <div class="date"> </div> 
 
     <div class="displaycity">
     <div id="city">Switzerland <img src="src/ch.png" width="20"/></div>
     <div class="time">10:48:57 <span class="A">PM</span></div></div>
-    <div class="date">September 26th 2026 </div> 
-  
-      
+    <div class="date">September 26th 2026 </div>  
     </main>
   
  
