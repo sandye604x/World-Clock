@@ -22,19 +22,19 @@ h1 {
 #city {
     font-weight:bold;
     font-size:22px;
-    margin:5px 0 0 20px;
+    margin:5px 0 0 10px;   
    
 }
 
 .date {
-    margin:0 0 0 0px;
+    margin:5px 0 0 0px;
     font-size: 13px;
     opacity: 60%;
      
 }
 
 .time {
-    margin:5px 30px 0 0;
+    margin:5px 20px 0 0;
     font-size: 32px;
     font-weight: bold;
 
