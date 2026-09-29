@@ -13,11 +13,11 @@ currentdate.innerHTML = citydaytime.format("MMMM Do YYYY");
 
 function updateCity(event) {
     let citychosen = event.target.value;
-    let cityName = citychosen.replace("_", " ").split("/")[1];
     
     if (citychosen === "current") {
        citychosen = moment.tz.guess();
     }
+    let cityName = citychosen.replace("_", " ").split("/")[1];
     
     let cityTimezone = moment().tz(citychosen);
    
